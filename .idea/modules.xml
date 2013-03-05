@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cassandra-xke-handson.iml" filepath="$PROJECT_DIR$/cassandra-xke-handson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/java/java.iml" filepath="$PROJECT_DIR$/api/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parser/parser.iml" filepath="$PROJECT_DIR$/parser/parser.iml" />
+    </modules>
+  </component>
+</project>
+

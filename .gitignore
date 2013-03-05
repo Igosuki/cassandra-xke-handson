@@ -1,1 +1,3 @@
+data/
 target/
+model/src/main/resources/lastfm.properties

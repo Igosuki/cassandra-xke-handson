@@ -1,0 +1,4 @@
+#!/bin/sh
+
+CASSANDRA_INCLUDE=./4/cassandra.in.sh cassandra -f
+
