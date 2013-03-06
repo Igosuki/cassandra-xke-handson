@@ -4,6 +4,6 @@ create table tracks (
     , artist timeuuid
     , release date
     , duration float
-    , tags list<varchar>
+    , tags set<varchar>
 
 );

@@ -1,8 +1,8 @@
-create table venue (
+create table venues (
     id uuid PRIMARY KEY
     , city varchar
     , country varchar
     , name varchar
-    , artist list<varchar>
-    , location varchar
+    , coordinates varchar
+    , artist set<varchar>
 );

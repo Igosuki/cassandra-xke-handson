@@ -1,0 +1,6 @@
+create table artists (
+    id uuid PRIMARY KEY
+    , name varchar
+    , tags set<varchar>
+    , tracks map<timeuuid, varchar>
+);

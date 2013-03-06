@@ -1,6 +1,0 @@
-create table artist (
-    id uuid PRIMARY KEY
-    , name varchar
-    , tags list<varchar>
-    , tracks list<timeuuid>
-);

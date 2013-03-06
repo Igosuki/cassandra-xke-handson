@@ -1,5 +1,5 @@
 create table user(
-    id timeuuid
+    id timeuuid PRIMARY KEY
     , name varchar
     , email varchar
     , password varchar
