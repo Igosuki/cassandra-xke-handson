@@ -20,6 +20,6 @@ But it is still buggy
 - Make sure cassandra, cassandra-cli, cqlsh, opscenter are working fine.
 - Start cassandra with cassandra -f
 - Update the cassandra.properties to your configuration if you wish to modify it (ex: you already have another conf of Cassandra running)
-- mvn clean verify at the root
+- Execute mvn clean verify at the root
 - Run AstyanaxPersistorTest to test the connection
 
