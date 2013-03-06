@@ -2,88 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c63a98f-adbf-4880-8a35-05abfa90b893" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/cass/AstyanaxPersistorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/FileNameUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalDataSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMApiProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_eaio_uuid_uuid_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_high_scale_lib_high_scale_lib_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jamm_0_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_cassandra_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_core_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_entity_mapper_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_queue_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_recipes_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_test_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_thrift_1_56_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_0_8_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_ppl_snaptree_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_all_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_thrift_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_deps_avro_1_4_0_cassandra_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_commons_csv_1_0_r706900_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/main/resources/cassandra.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Popularity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/SongResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Likeable.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artefact.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Song.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMAPIProcessor.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" afterPath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Venue.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Venue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cassandra-xke-handson.iml" afterPath="$PROJECT_DIR$/cassandra-xke-handson.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/java.iml" afterPath="$PROJECT_DIR$/api/java/java.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/parser.iml" afterPath="$PROJECT_DIR$/parser/parser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/pom.xml" afterPath="$PROJECT_DIR$/api/java/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/pom.xml" afterPath="$PROJECT_DIR$/model/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cassandra-xke-handson.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362528516868" ignored="false" />
-    <file path="/README.md" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362530189177" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362530632535" ignored="false" />
+    <file path="/README.md" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362531155482" ignored="false" />
     <file path="/fragment.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362528274381" ignored="false" />
-    <file path="/pom.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362529146613" ignored="false" />
+    <file path="/pom.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362531009118" ignored="false" />
     <file path="$PROJECT_DIR$/api/java/ear/target/application.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362371099267" ignored="false" />
     <file path="/a.dummy" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362525934334" ignored="false" />
     <file path="/Song.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372429069" ignored="false" />
@@ -175,10 +110,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parser/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6046065">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="8" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalLastFMParserTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="10" selection-start="515" selection-end="549" vertical-scroll-proportion="0.24436091">
               <folding />
             </state>
           </provider>
@@ -202,9 +155,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java" />
-        <option value="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" />
         <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" />
         <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMApiProcessor.java" />
@@ -217,7 +168,9 @@
         <option value="$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties" />
         <option value="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/cass/AstyanaxPersistorTest.java" />
         <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
       </list>
     </option>
   </component>
@@ -312,6 +265,25 @@
     <option name="width" value="1920" />
     <option name="height" value="946" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -341,6 +313,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -893,7 +866,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -913,12 +885,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1127,6 +1099,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1153,19 +1138,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1252,7 +1224,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19690502" sideWeight="0.6646489" order="3" side_tool="false" content_ui="tabs" />
@@ -1260,13 +1231,14 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6646489" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33535108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33535108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6646489" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1332,27 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-core/1.56.28/astyanax-core-1.56.28.jar!/com/netflix/astyanax/connectionpool/impl/ConnectionPoolConfigurationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="47" selection-start="4275" selection-end="4275" vertical-scroll-proportion="0.032258064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-thrift/1.56.28/astyanax-thrift-1.56.28-sources.jar!/com/netflix/astyanax/thrift/ThriftFamilyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.35785288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="44" selection-end="44" vertical-scroll-proportion="0.060240965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="56" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.3666027">
@@ -1377,9 +1328,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="433" column="0" selection-start="17050" selection-end="17050" vertical-scroll-proportion="0.31861803">
-          <folding />
-        </state>
+        <state line="433" column="0" selection-start="17050" selection-end="17050" vertical-scroll-proportion="0.31861803" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/java/pom.xml">
@@ -1391,16 +1340,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/java/src/main/resources/cassandra.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="0" selection-end="44" vertical-scroll-proportion="0.057581574">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="0" selection-end="44" vertical-scroll-proportion="0.057581574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.34548944">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.34548944" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java">
@@ -1419,35 +1364,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/nodes/start2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/nodes/start1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/nodes/1/log4j-server.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.6909789">
-          <folding />
-        </state>
+        <state line="24" column="38" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.6909789" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/nodes/1/cassandra.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.6046065">
+        <state line="21" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.6046065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6046065">
+        <state line="25" column="146" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.4699248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="8" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="515" selection-end="549" vertical-scroll-proportion="0.24436091">
           <folding />
         </state>
       </provider>

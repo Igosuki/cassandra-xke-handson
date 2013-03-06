@@ -15,9 +15,11 @@ Note : I recommend using the 1.6 JDK to run if you want to run Cassandra using 1
 http://code.google.com/p/snappy-java/downloads/detail?name=snappy-java-1.0.5-M2.jar&can=2&q=
 But it is still buggy
 
-- Export the bins over to your environment path and let's get started.
+- Export dsc-cassandra/bin and opscenter/bin in your PATH
+- Because I run 2 JDKs, you must create an env variable JAVA_HOME_7 for the Jdk 1.7 or remove them from the poms
 - Make sure cassandra, cassandra-cli, cqlsh, opscenter are working fine.
-- Start the first node in the cassandra/nodes folder : ./start1 (don't forget chmod +x)
+- Start cassandra with cassandra -f
 - Update the cassandra.properties to your configuration if you wish to modify it (ex: you already have another conf of Cassandra running)
+- mvn clean verify at the root
 - Run AstyanaxPersistorTest to test the connection
 

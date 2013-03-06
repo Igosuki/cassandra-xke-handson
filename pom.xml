@@ -17,7 +17,14 @@
 
     <!-- More Project Information -->
     <name>Cassandra Hands On</name>
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <testCompileSource>1.7</testCompileSource>
+        <compileSource>1.7</compileSource>
+        <slf4j.version>1.6.1</slf4j.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -25,4 +32,43 @@
             <version>4.10</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${compileSource}</source>
+                    <target>${compileSource}</target>
+                    <showDeprecation>true</showDeprecation>
+                    <showWarnings>true</showWarnings>
+                    <executable>${env.JAVA_HOME_7}/bin/javac</executable>
+                    <fork>true</fork>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>test-compile</id>
+                        <phase>process-test-sources</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                        <configuration>
+                            <source>${testCompileSource}</source>
+                            <target>${testCompileSource}</target>
+                            <showDeprecation>true</showDeprecation>
+                            <showWarnings>true</showWarnings>
+                            <executable>${env.JAVA_HOME_7}/bin/javac</executable>
+                            <fork>true</fork>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <jvm>${env.JAVA_HOME_7}/bin/java</jvm>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
