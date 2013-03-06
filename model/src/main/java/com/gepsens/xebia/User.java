@@ -1,12 +1,16 @@
 package com.gepsens.xebia;
 
+import java.util.UUID;
+
 public class User {
 
-    String id;
+    private UUID id;
 
-    String email;
+    private String name;
 
-    String password;
+    private String email;
+
+    private String password;
 
     public String getEmail() {
         return email;
@@ -24,11 +28,11 @@ public class User {
         this.password = password;
     }
 
-    public String getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 }

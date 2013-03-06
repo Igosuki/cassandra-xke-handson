@@ -1,5 +1,6 @@
 package com.gepsens.xebia;
 
+import javax.persistence.Entity;
 import java.util.List;
 import java.util.UUID;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -10,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
     @JsonSubTypes.Type(value = Track.class, name = "track"),
     @JsonSubTypes.Type(value = Venue.class, name = "venue")
 })
+@Entity
 public abstract class Artefact {
 
     @JsonProperty("mbid")

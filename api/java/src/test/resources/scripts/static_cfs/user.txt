@@ -1,0 +1,6 @@
+create table user(
+    id timeuuid
+    , name varchar
+    , email varchar
+    , password varchar
+);

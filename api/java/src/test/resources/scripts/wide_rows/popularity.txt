@@ -1,0 +1,29 @@
+create table popularity (
+    type varchar
+    , id uuid
+    , hits counter
+    , likes counter
+    , PRIMARY KEY(type, id)
+);
+
+create table popularity_ranking (
+    type varchar
+    , likes int
+    , id uuid
+    , PRIMARY KEY(type, likes)
+);
+
+create table hit_ranking (
+    type varchar
+    , hits int
+    , id uuid
+    , PRIMARY KEY(type, hits)
+);
+
+create table efficiency_rating (
+    type varchar
+    , ratio int
+    , id uuid
+    , PRIMARY KEY(type, ratio)
+);
+

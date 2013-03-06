@@ -1,0 +1,7 @@
+create table venue_indexes (
+    type varchar
+    , value varchar
+    , id uuid
+    , name varchar
+    , PRIMARY KEY((type, value), id)
+);

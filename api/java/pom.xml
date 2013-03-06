@@ -23,45 +23,5 @@
             <artifactId>dropwizard-core</artifactId>
             <version>0.6.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.cassandra</groupId>
-            <artifactId>cassandra-all</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-core</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-cassandra</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-thrift</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-recipes</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-test</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-queue</artifactId>
-            <version>1.56.28</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.astyanax</groupId>
-            <artifactId>astyanax-entity-mapper</artifactId>
-            <version>1.56.28</version>
-        </dependency>
     </dependencies>
 </project>

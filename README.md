@@ -23,3 +23,4 @@ But it is still buggy
 - Execute mvn clean verify at the root
 - Run AstyanaxPersistorTest to test the connection
 
+The Cassandra 1.2 Documentation can be found here : http://www.datastax.com/docs/1.2/index

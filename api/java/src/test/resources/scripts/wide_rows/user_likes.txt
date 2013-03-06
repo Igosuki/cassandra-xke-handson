@@ -1,0 +1,16 @@
+create table user_likes(
+    user_id timeuuid
+    , type varchar
+    , item_id timeuuid
+    , name varchar
+    , PRIMARY KEY (user_id, type, item_id)
+);
+
+create table user_likes_timeline (
+    user_id timeuuid
+    , type varchar
+    , when date
+    , item_id timeuuid
+    , name varchar
+    , PRIMARY KEY (user_id, type, when, item_id)
+);

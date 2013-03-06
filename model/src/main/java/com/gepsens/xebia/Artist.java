@@ -15,6 +15,16 @@ public class Artist extends Artefact {
     @JsonProperty("similar")
     List<Artist> similar;
 
+    List<Track> tracks;
+
+    public List<Track> getTracks() {
+        return tracks;
+    }
+
+    public void setTracks(List<Track> tracks) {
+        this.tracks = tracks;
+    }
+
     public List<Artist> getSimilar() {
         return similar;
     }

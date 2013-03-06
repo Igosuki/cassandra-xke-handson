@@ -1,0 +1,9 @@
+create table tracks (
+    id timeuuid PRIMARY KEY
+    , title varchar
+    , artist timeuuid
+    , release date
+    , duration float
+    , tags list<varchar>
+
+);

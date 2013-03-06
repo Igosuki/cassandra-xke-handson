@@ -1,0 +1,7 @@
+create user_click_stream(
+    user_id timeuuid,
+    , when date,
+    , url varchar,
+    , referer varchar
+    , PRIMARY KEY(user_id, when, url)
+);

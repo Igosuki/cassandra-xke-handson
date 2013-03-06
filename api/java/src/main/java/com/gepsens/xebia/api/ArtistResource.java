@@ -4,18 +4,17 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
-import com.gepsens.xebia.Track;
-import com.google.common.base.Optional;
+import com.gepsens.xebia.Artist;
 import com.yammer.metrics.annotation.Timed;
 
-@Path("/tracks")
+@Path("/artists")
 @Produces(MediaType.APPLICATION_JSON)
-public class TrackResource implements CrudResource<Track, UUID> {
+public class ArtistResource implements CrudResource<Artist, UUID> {
     private final String template;
     private final String defaultName;
     private final AtomicLong counter;
 
-    public TrackResource(String template, String defaultName) {
+    public ArtistResource(String template, String defaultName) {
         this.template = template;
         this.defaultName = defaultName;
         this.counter = new AtomicLong();
@@ -24,28 +23,30 @@ public class TrackResource implements CrudResource<Track, UUID> {
     @GET
     @Timed
     @Override
-    @Path("/{trackId}")
-    public Track get(@PathParam("trackId") UUID id) {
+    @Path("/{artistId}")
+    public Artist get(@PathParam("artistId") UUID id) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @POST
     @Override
-    public void save(Track track) {
+    public void save(Artist artist) {
         //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @DELETE
     @Override
-    @Path("/{trackId}")
-    public void delete(@PathParam("trackId") UUID t) {
+    @Path("/{artistId}")
+    public void delete(@PathParam("artistId") UUID t) {
         //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @PUT
     @Override
-    public Track update(Track track) {
+    public Artist update(Artist artist) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
+
+
 
