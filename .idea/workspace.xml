@@ -2,134 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c63a98f-adbf-4880-8a35-05abfa90b893" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/GeoLocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Likeable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_13_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_dropwizard_dropwizard_core_0_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_annotation_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_jersey_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_jetty_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_logback_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_servlet_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_u_mass_lastfm_java_0_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_8_v20121106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Popularity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Song.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/SongResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Venue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/access.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/access.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/access.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/access.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/cassandra-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/cassandra-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/cassandra-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/cassandra-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/cassandra-topology.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/cassandra-topology.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/cassandra-topology.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/cassandra-topology.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/cassandra.in.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/cassandra.in.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/cassandra.in.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/cassandra.in.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/cassandra.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/cassandra.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/cassandra.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/cassandra.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/java.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/resources/lastfm.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/log4j-server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/log4j-server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/log4j-server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/log4j-server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/log4j-tools.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/log4j-tools.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/log4j-tools.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/log4j-tools.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/parser.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/passwd.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/passwd.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/passwd.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/passwd.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/1/schema-sample.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/2/schema-sample.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/3/schema-sample.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/4/schema-sample.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/start1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/start2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/start3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassandra/nodes/start4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/cass/AstyanaxPersistorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/FileNameUtilTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalDataSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMApiProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_eaio_uuid_uuid_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_high_scale_lib_high_scale_lib_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jamm_0_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_cassandra_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_core_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_entity_mapper_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_queue_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_recipes_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_test_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_astyanax_astyanax_thrift_1_56_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_0_8_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_ppl_snaptree_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_all_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_thrift_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_deps_avro_1_4_0_cassandra_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_commons_csv_1_0_r706900_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/main/resources/cassandra.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Popularity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/SongResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Likeable.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artefact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Song.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMAPIProcessor.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" afterPath="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Venue.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Venue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cassandra-xke-handson.iml" afterPath="$PROJECT_DIR$/cassandra-xke-handson.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/java.iml" afterPath="$PROJECT_DIR$/api/java/java.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser/parser.iml" afterPath="$PROJECT_DIR$/parser/parser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/pom.xml" afterPath="$PROJECT_DIR$/api/java/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/pom.xml" afterPath="$PROJECT_DIR$/model/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cassandra-xke-handson.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362507598115" ignored="false" />
-    <file path="/README.md" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362319035647" ignored="false" />
-    <file path="/fragment.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362511995220" ignored="false" />
-    <file path="/pom.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362503913363" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362528516868" ignored="false" />
+    <file path="/README.md" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362530189177" ignored="false" />
+    <file path="/fragment.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362528274381" ignored="false" />
+    <file path="/pom.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362529146613" ignored="false" />
     <file path="$PROJECT_DIR$/api/java/ear/target/application.xml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362371099267" ignored="false" />
-    <file path="/a.dummy" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362371757919" ignored="false" />
+    <file path="/a.dummy" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362525934334" ignored="false" />
     <file path="/Song.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372429069" ignored="false" />
     <file path="/Tag.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362371899191" ignored="false" />
     <file path="/Popularity.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362371944680" ignored="false" />
-    <file path="/Artist.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362512059274" ignored="false" />
+    <file path="/Artist.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362525763439" ignored="false" />
     <file path="/Concert.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372364071" ignored="false" />
     <file path="/User.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372321781" ignored="false" />
     <file path="/Likeable.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372377996" ignored="false" />
     <file path="/Location.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372498539" ignored="false" />
-    <file path="/SongResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362372853663" ignored="false" />
+    <file path="/SongResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526373888" ignored="false" />
     <file path="/LastFMParser.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362511713404" ignored="false" />
     <file path="/dropwizard-core-0.6.1.pom" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362374105549" ignored="false" />
     <file path="/lastfm.properties" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362505192746" ignored="false" />
@@ -137,8 +102,21 @@
     <file path="/LastFMJsonHDF5Processor.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362506046576" ignored="false" />
     <file path="/LastFMAPIProcessor.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362511833175" ignored="false" />
     <file path="/JacksonWriter.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362511920572" ignored="false" />
-    <file path="/FileNameUtil.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362512238393" ignored="false" />
-    <file path="/LocalLastFMParser.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362512627184" ignored="false" />
+    <file path="/FileNameUtil.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362523274233" ignored="false" />
+    <file path="/LocalLastFMParser.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362523660785" ignored="false" />
+    <file path="/LocalLastFMApiProcessor.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526194327" ignored="false" />
+    <file path="/LastFMApiProcessor.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362514576054" ignored="false" />
+    <file path="/FileNameUtilTest.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362522793458" ignored="false" />
+    <file path="/LocalDataSet.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362523021534" ignored="false" />
+    <file path="/LocalLastFMParserTest.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362525529907" ignored="false" />
+    <file path="/Artefact.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526287440" ignored="false" />
+    <file path="/Track.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362524591536" ignored="false" />
+    <file path="$PROJECT_DIR$/cassandra/nodes/4/cassandra.yaml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526294875" ignored="false" />
+    <file path="$PROJECT_DIR$/cassandra/nodes/3/cassandra.yaml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526294875" ignored="false" />
+    <file path="$PROJECT_DIR$/cassandra/nodes/2/cassandra.yaml" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362526294875" ignored="false" />
+    <file path="/AstyanaxPersistor.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362529853154" ignored="false" />
+    <file path="/cassandra.properties" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362527868556" ignored="false" />
+    <file path="/AstyanaxPersistorTest.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362529801158" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +139,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -178,7 +155,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -199,30 +175,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LastFMApiParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="189" selection-end="1114" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#main#0;class#LastFMApiParser#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalLastFMParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.513308">
+            <state line="21" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6046065">
               <folding />
             </state>
           </provider>
@@ -246,22 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/api/java/src/main/java/SongResource.java" />
-        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/SongResource.java" />
-        <option value="$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.1/dropwizard-core-0.6.1.pom" />
-        <option value="$PROJECT_DIR$/parser/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/model/src/main/resources/lastfm.properties" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/LastFMJsonHDF5Processor.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/LastFMParser.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonWriter.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/LastFMAPIProcessor.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/LastFMParser.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java" />
+        <option value="$PROJECT_DIR$/parser/src/test/java/com/gepsens/xebia/crawler/local/LocalLastFMParserTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMParser.java" />
-        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonReader.java" />
         <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java" />
+        <option value="$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMApiProcessor.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artefact.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/SongResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/TrackResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/resources/cassandra.properties" />
+        <option value="$PROJECT_DIR$/api/java/pom.xml" />
+        <option value="$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties" />
+        <option value="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/cass/AstyanaxPersistorTest.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -295,6 +251,44 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="model" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="model" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Cassandra Hands On" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -331,7 +325,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -398,6 +392,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xebia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xebia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,42 +648,6 @@
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lastfm_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lastfm_api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -673,6 +677,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -700,6 +744,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,6 +812,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xebia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -769,18 +897,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/api/java/src/test/java" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/parser" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -789,6 +921,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gepsens.xebia.cass" />
+      <recent name="com.gepsens.xebia.crawler.local" />
+      <recent name="com.gepsens.xebia" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cassandra/nodes" />
     </key>
@@ -797,9 +937,7 @@
       <recent name="LastFMJsonHDF5Processor" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gepsens.xebia" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gepsens.xebia.crawler.local" />
       <recent name="com.gepsens.xebia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -807,21 +945,36 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cassandra/nodes" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gepsens.xebia.api" />
+      <recent name="com.gepsens.xebia" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LastFMApiParser">
-    <configuration default="false" name="LastFMApiParser" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.gepsens.xebia.crawler.lastfm.LastFMApiParser" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="JUnit.AstyanaxPersistorTest.keyspace_should_have_same_name">
+    <configuration default="false" name="LocalLastFMParserTest.should_get_dataset" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gepsens.xebia.crawler.local.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="parser" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.gepsens.xebia.crawler.local" />
+      <option name="MAIN_CLASS_NAME" value="com.gepsens.xebia.crawler.local.LocalLastFMParserTest" />
+      <option name="METHOD_NAME" value="should_get_dataset" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="parser" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -829,6 +982,113 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AstyanaxPersistorTest.ping_should_return_hosts" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gepsens.xebia.cass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gepsens.xebia.cass" />
+      <option name="MAIN_CLASS_NAME" value="com.gepsens.xebia.cass.AstyanaxPersistorTest" />
+      <option name="METHOD_NAME" value="ping_should_return_hosts" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in java" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AstyanaxPersistorTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gepsens.xebia.cass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gepsens.xebia.cass" />
+      <option name="MAIN_CLASS_NAME" value="com.gepsens.xebia.cass.AstyanaxPersistorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AstyanaxPersistorTest.keyspace_should_have_same_name" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gepsens.xebia.cass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gepsens.xebia.cass" />
+      <option name="MAIN_CLASS_NAME" value="com.gepsens.xebia.cass.AstyanaxPersistorTest" />
+      <option name="METHOD_NAME" value="keyspace_should_have_same_name" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -853,7 +1113,6 @@
             <option name="profilesMap">
               <map />
             </option>
-            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
@@ -945,12 +1204,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.LastFMApiParser" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LocalLastFMParserTest.should_get_dataset" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest.ping_should_return_hosts" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in java" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest.keyspace_should_have_same_name" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.LastFMApiParser" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest.keyspace_should_have_same_name" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest.ping_should_return_hosts" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AstyanaxPersistorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in java" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LocalLastFMParserTest.should_get_dataset" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -964,19 +1231,11 @@
       <changelist id="6c63a98f-adbf-4880-8a35-05abfa90b893" name="Default" comment="" />
       <created>1361995147006</created>
       <updated>1361995147006</updated>
-      <workItem from="1362319482152" duration="57000" />
-      <workItem from="1362319560085" duration="77000" />
-      <workItem from="1362319659514" duration="74000" />
-      <workItem from="1362319754887" duration="179000" />
-      <workItem from="1362319959010" duration="3316000" />
-      <workItem from="1362371570718" duration="3905000" />
-      <workItem from="1362503264676" duration="4324000" />
-      <workItem from="1362507597562" duration="5266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17198000" />
+    <option name="totallyTimeSpent" value="25554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="946" extended-state="0" />
@@ -984,11 +1243,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29176757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39951575" sideWeight="0.49626467" order="7" side_tool="true" content_ui="tabs" />
@@ -998,15 +1255,18 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19690502" sideWeight="0.67070216" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19690502" sideWeight="0.6646489" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67070216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6646489" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33535108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6646489" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1048,10 +1308,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -1065,7 +1321,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -1077,139 +1332,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/lastfm_api/artists/LinkinPark.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-core/1.56.28/astyanax-core-1.56.28.jar!/com/netflix/astyanax/connectionpool/impl/ConnectionPoolConfigurationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+        <state line="76" column="47" selection-start="4275" selection-end="4275" vertical-scroll-proportion="0.032258064">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Tag.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-thrift/1.56.28/astyanax-thrift-1.56.28-sources.jar!/com/netflix/astyanax/thrift/ThriftFamilyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05703422">
+        <state line="26" column="45" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.35785288">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/u-mass/lastfm-java/0.1.2/lastfm-java-0.1.2-sources.jar!/de/umass/lastfm/ItemFactoryBuilder.java">
+    <entry file="file://$PROJECT_DIR$/api/java/src/test/resources/cassandra.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.33269963">
+        <state line="2" column="38" selection-start="44" selection-end="44" vertical-scroll-proportion="0.060240965">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/u-mass/lastfm-java/0.1.2/lastfm-java-0.1.2-sources.jar!/de/umass/lastfm/Artist.java">
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="55" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.42775667">
-          <folding>
-            <element signature="method#getCorrection#0;class#Artist#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="332" selection-end="332" vertical-scroll-proportion="0.45627376">
+        <state line="37" column="56" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.3666027">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#JacksonWriter#0;class#JacksonWriter#0" expanded="true" />
-            <element signature="method#saveJsonFile#0;class#JacksonWriter#0" expanded="true" />
+            <element signature="method#ping#0;class#AstyanaxPersistor#0" expanded="true" />
+            <element signature="method#loadConf#0;class#AstyanaxPersistor#0" expanded="true" />
+            <element signature="method#conf#0;class#AstyanaxPersistor#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
+    <entry file="file://$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/cass/AstyanaxPersistorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="354" column="26" selection-start="12927" selection-end="12927" vertical-scroll-proportion="0.33269963">
+        <state line="3" column="85" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08637236">
           <folding>
-            <element signature="method#get#0;class#Hashtable#0" expanded="true" />
+            <element signature="method#ping_should_return_hosts#0;class#AstyanaxPersistorTest#0" expanded="true" />
+            <element signature="method#keyspace_should_have_same_name#0;class#AstyanaxPersistorTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/FileNameUtil.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="232" selection-end="232" vertical-scroll-proportion="0.2851711">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printFileNameAsHexStrings#0;class#FileNameUtil#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/lastfm_subset/A/A/A/TRAAABD128F429CF47.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13108" selection-start="0" selection-end="13108" vertical-scroll-proportion="-0.0">
+        <state line="433" column="0" selection-start="17050" selection-end="17050" vertical-scroll-proportion="0.31861803">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/lastfm_subset/A/A/A/TRAAADZ128F9348C2E.json">
+    <entry file="file://$PROJECT_DIR$/api/java/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="13" column="29" selection-start="550" selection-end="550" vertical-scroll-proportion="0.37428024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/resources/cassandra.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="0" selection-end="44" vertical-scroll-proportion="0.057581574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.34548944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="249" selection-end="249" vertical-scroll-proportion="0.028790787">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMJsonHDF5Processor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="322" selection-end="322" vertical-scroll-proportion="0.11406844">
+        <state line="36" column="5" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.028790787">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiProcessor.java">
+    <entry file="file://$PROJECT_DIR$/cassandra/nodes/start2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="1151" selection-end="1151" vertical-scroll-proportion="1.0836502">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#LastFMApiProcessor#0;class#LastFMApiProcessor#0" expanded="true" />
-            <element signature="method#downloadFromLastFM#0;class#LastFMApiProcessor#0" expanded="true" />
-            <element signature="method#downloadArtists#0;class#LastFMApiProcessor#0" expanded="true" />
-            <element signature="e#1566#1590#0" expanded="true" />
-            <element signature="method#getArtistsInfo#0;class#LastFMApiProcessor#0" expanded="true" />
-            <element signature="method#saveTracks#0;class#LastFMApiProcessor#0" expanded="true" />
-            <element signature="method#saveArtists#0;class#LastFMApiProcessor#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/JacksonReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="172" selection-end="184" vertical-scroll-proportion="0.19961977">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readJsonFile#0;class#JacksonReader#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/gepsens/xebia/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="617" selection-end="617" vertical-scroll-proportion="0.74334604">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/lastfm/LastFMApiParser.java">
+    <entry file="file://$PROJECT_DIR$/cassandra/nodes/start1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="189" selection-end="1114" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#main#0;class#LastFMApiParser#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/main/java/com/gepsens/xebia/crawler/local/LocalLastFMParser.java">
+    <entry file="file://$PROJECT_DIR$/cassandra/nodes/1/log4j-server.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+        <state line="24" column="38" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.6909789">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cassandra/nodes/1/cassandra.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.6046065">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.513308">
+        <state line="21" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6046065">
           <folding />
         </state>
       </provider>
@@ -1269,11 +1507,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>model</last-edited>
+          <last-edited>java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1293,6 +1532,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

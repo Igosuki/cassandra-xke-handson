@@ -8,6 +8,11 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.MappingJsonFactory;
 
 public class LastFMJsonHDF5Processor {
+
+    public static int counter;
+
+    public static final int MAX_SONGS = 10000;
+
     public static void processLastFmJsonFiles(String rootDir) throws Exception {
         File dataDir = new File(rootDir);
 
@@ -17,7 +22,7 @@ public class LastFMJsonHDF5Processor {
 
     private static void startFileRecurse(File[] files) throws Exception {
         for (File file : files) {
-            if(LastFMApiParser.counter > LastFMApiParser.MAX_SONGS)
+            if(counter > MAX_SONGS)
                 break;
             if(file.isDirectory()) {
                 startFileRecurse(file.listFiles());

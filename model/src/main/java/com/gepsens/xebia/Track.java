@@ -2,20 +2,19 @@ package com.gepsens.xebia;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-public class Song extends Likeable {
+@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
+public class Track extends Artefact {
 
-    String id;
-
-    String artistId;
+    UUID artistId;
 
     String title;
 
     Date release;
 
     Float duration;
-
-    List<Tag> tags;
 
     public Float getDuration() {
         return duration;
@@ -25,27 +24,11 @@ public class Song extends Likeable {
         this.duration = duration;
     }
 
-    public Popularity getPopularity() {
-        return popularity;
-    }
-
-    public void setPopularity(Popularity popularity) {
-        this.popularity = popularity;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getArtistId() {
+    public UUID getArtistId() {
         return artistId;
     }
 
-    public void setArtistId(String artistId) {
+    public void setArtistId(UUID artistId) {
         this.artistId = artistId;
     }
 
@@ -65,11 +48,4 @@ public class Song extends Likeable {
         this.release = release;
     }
 
-    public List<Tag> getTags() {
-        return tags;
-    }
-
-    public void setTags(List<Tag> tags) {
-        this.tags = tags;
-    }
 }

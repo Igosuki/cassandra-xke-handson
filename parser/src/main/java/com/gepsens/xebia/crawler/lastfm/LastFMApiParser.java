@@ -4,10 +4,6 @@ import java.util.Properties;
 
 public class LastFMApiParser {
 
-    public static int counter;
-
-    public static final int MAX_SONGS = 10000;
-
     public static String subsetDir;
 
     public static String apiDir;

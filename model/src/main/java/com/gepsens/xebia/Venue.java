@@ -3,9 +3,7 @@ package com.gepsens.xebia;
 import java.util.Date;
 import java.util.List;
 
-public class Venue extends Likeable {
-
-    String id;
+public class Venue extends Artefact {
 
     Date occurence;
 
@@ -65,13 +63,5 @@ public class Venue extends Likeable {
 
     public void setArtists(List<Artist> artists) {
         this.artists = artists;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 }

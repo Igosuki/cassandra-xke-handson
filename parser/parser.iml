@@ -12,11 +12,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="model" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" name="Maven: de.u-mass:lastfm-java:0.1.2" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.15" level="project" />
   </component>
 </module>
 

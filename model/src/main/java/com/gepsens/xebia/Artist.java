@@ -1,14 +1,27 @@
 package com.gepsens.xebia;
 
+import java.util.List;
 import java.util.UUID;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Artist extends Likeable {
-
-    UUID id;
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Artist extends Artefact {
 
     String name;
 
     GeoLocation location;
+
+    @JsonProperty("similar")
+    List<Artist> similar;
+
+    public List<Artist> getSimilar() {
+        return similar;
+    }
+
+    public void setSimilar(List<Artist> similar) {
+        this.similar = similar;
+    }
 
     public String getName() {
         return name;
@@ -26,19 +39,20 @@ public class Artist extends Likeable {
         this.location = location;
     }
 
-    public Popularity getPopularity() {
-        return popularity;
-    }
-
-    public void setPopularity(Popularity popularity) {
-        this.popularity = popularity;
-    }
-
     public UUID getId() {
         return id;
     }
 
     public void setId(UUID id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Artist{" +
+                "name='" + name + '\'' +
+                ", location=" + location +
+                ", similar=" + similar +
+                "} " + super.toString();
     }
 }

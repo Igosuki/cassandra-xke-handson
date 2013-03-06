@@ -33,7 +33,9 @@ public class LastFMApiProcessor {
     public void downloadFromLastFM() {
         Caller.getInstance().setUserAgent("Cassandra HandsOn");
         //getWeeklyChart(user, key);
-        Set<de.umass.lastfm.Artist> artists = downloadArtists(this.user, this.key);
+        Set<Artist> artists = new HashSet<>();
+        artists.addAll(downloadArtists(this.user, this.key, "France"));
+        artists.addAll(downloadArtists(this.user, this.key, "France"));
         for (de.umass.lastfm.Artist artist : artists) {
             downloadSongs(artist, this.key);
         }
@@ -48,11 +50,10 @@ public class LastFMApiProcessor {
         }
     }
 
-    private Set<de.umass.lastfm.Artist> downloadArtists(String user, String key)  {
+    private Set<de.umass.lastfm.Artist> downloadArtists(String user, String key, String country)  {
         Set<de.umass.lastfm.Artist> artists = new HashSet<de.umass.lastfm.Artist>();
         try {
-            artists.addAll(Geo.getTopArtists("France", key));
-            artists.addAll(User.getTopArtists(user, key));
+            artists.addAll(Geo.getTopArtists(country, key));
         } catch(Exception e) {
             System.out.println("Couldn't get tracks : " + e.getMessage());
         }
