@@ -9,8 +9,6 @@ import java.util.HashSet;
 import java.util.Set;
 import com.gepsens.xebia.JacksonWriter;
 import de.umass.lastfm.*;
-import de.umass.lastfm.Artist;
-import de.umass.lastfm.User;
 
 public class LastFMApiProcessor {
 
@@ -22,29 +20,49 @@ public class LastFMApiProcessor {
     private String secret;
 
     private JacksonWriter writer;
+    private final String apiDir;
 
     public LastFMApiProcessor(String apiDir, String user, String key, String secret) {
         this.user = user;
         this.key = key;
         this.secret = secret;
         this.writer = new JacksonWriter(apiDir);
+        this.apiDir = apiDir;
     }
 
     public void downloadFromLastFM() {
         Caller.getInstance().setUserAgent("Cassandra HandsOn");
         //getWeeklyChart(user, key);
         Set<Artist> artists = new HashSet<>();
-        artists.addAll(downloadArtists(this.user, this.key, "France"));
-        artists.addAll(downloadArtists(this.user, this.key, "France"));
-        for (de.umass.lastfm.Artist artist : artists) {
-            downloadSongs(artist, this.key);
+//        artists.addAll(downloadArtists(this.user, this.key, "France"));
+//        artists.addAll(downloadArtists(this.user, this.key, "Germany"));
+//        for (de.umass.lastfm.Artist artist : artists) {
+//            downloadSongs(artist, this.key);
+//        }
+        downloadEvents(this.key, this.apiDir);
+
+    }
+
+    private void downloadEvents(String key, String apiDir) {
+        Collection<Venue> arenas = Venue.search("arena", this.key);
+        for (Venue venue : arenas) {
+            try {
+                Collection<Event> events = Venue.getEvents(venue.getId(), this.key);
+                saveEvents(events);
+            } catch(Exception e) {
+                System.out.println("Couldn't download for venue " + venue.getId());
+            }
         }
     }
 
     private void downloadSongs(de.umass.lastfm.Artist artist, String key) {
         try {
-            Collection<Track> topTracks = de.umass.lastfm.Artist.getTopTracks(artist.getName(), key);
-            saveTracks(artist, topTracks);
+            Collection<Track> topTracks = Artist.getTopTracks(artist.getName(), key);
+            Set<Track> infoTracks = new HashSet<>();
+            for (Track topTrack : topTracks) {
+                infoTracks.add(Track.getInfo(artist.getName(), topTrack.getMbid(), key));
+            }
+            saveTracks(artist, infoTracks);
         } catch(Exception e) {
             System.out.println("Couldn't get tracks : " + e.getMessage());
         }
@@ -74,10 +92,25 @@ public class LastFMApiProcessor {
         return artistsInfos;
     }
 
+    private void saveEvents(Collection<Event> events) {
+        for (Event event : events) {
+            String fileName = String.valueOf(event.getId());
+            File venueDir = new File(apiDir+"/venues", fileName);
+            if(!venueDir.exists()) {
+                try {
+                    Files.createDirectory(Paths.get(venueDir.getPath()));
+                } catch (IOException e) {
+                    System.out.println("Couldn't create directory : " + venueDir);
+                }
+            }
+            writer.saveJsonFile(event, "/venues/" + venueDir.getName(), fileName);
+        }
+    }
+
     private void saveTracks(de.umass.lastfm.Artist artist, Collection<Track> tracks)  {
         for (Track track : tracks) {
             String fileName = track.getMbid().replaceAll("\\s", "");
-            File artistDir = new File(LastFMApiParser.apiDir+"/tracks", artist.getMbid());
+            File artistDir = new File(apiDir+"/tracks", artist.getMbid());
             if(!artistDir.exists()) {
                 try {
                     Files.createDirectory(Paths.get(artistDir.getPath()));
@@ -85,6 +118,7 @@ public class LastFMApiProcessor {
                     System.out.println("Couldn't create directory : " + artistDir);
                 }
             }
+
             writer.saveJsonFile(track, "/tracks/" + artistDir.getName(), fileName);
         }
     }

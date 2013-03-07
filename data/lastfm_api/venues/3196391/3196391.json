@@ -1,0 +1,35 @@
+{
+    "id" : 3196391,
+    "title" : "Mario Barth",
+    "artists" :
+        [
+            "Mario Barth"
+        ],
+    "headliner" : "Mario Barth",
+    "startDate" : 1369936800000,
+    "endDate" : null,
+    "description" : "<div class=\"bbcode\">Mit seinen ersten drei Comedy-Programmen begeisterte Mario Barth rund sechs Millionen Menschen. Allein im Sommer 2011 füllte er vier Fußball-Arenen bei der weltweit ersten Comedy-Stadion-Tour. Ab 2012 geht es endlich weiter: Mario Barth präsentiert sein neuestes und von den Fans lange erwartetes Programm &quot;Männer sind schuld, sagen die Frauen&quot;.<br /><br />Der mit Abstand erfolgreichste deutsche Comedian verspricht schon jetzt eine fulminante Fortsetzung seiner Trilogie: &quot;Star Wars war ja am Anfang auch nur eine Trilogie und was daraus wurde, wissen wir heute. Aber alle, die denken, es geht wieder um Mann und Frau kann ich beruhigen. Diesmal geht es um Frau und Mann und darum, was uns alle sonst noch so beschäftigt.&quot;<br /><br />Wenn der Berliner Ausnahmecomedian Mario Barth auf die Bühne geht, erwartet die Fans ein Live-Erlebnis, das seines gleichen sucht. Sowohl Männer als auch Frauen werden mit Sicherheit wieder reichlich Tränen lachen. Wie kein anderer spricht der siebenfache Gewinner des Deutschen Comedypreises das aus, was viele nur denken. &quot;Diesmal&quot;, so Mario Barth, &quot;gibt es bei mir die ultimative Lösung für eine glückliche Beziehung. Männer sollten einfach immer alles zugeben und sich zur Sicherheit jeden Schuh anziehen. Der Satz ‚Schatz, das war mein Fehler’ wirkt oft Wunder.<br /><br />Denn eines steht doch fest: Die Männer sind meistens schuld. Geht die Spülmaschine kaputt, ist es SEIN Fehler, denn er kümmert sich ja schließlich um die Technik im Haus.&quot; Mario Barth räumt zudem mit dem Gerücht auf, dass Männer im Alter weniger Haare haben. Er hat herausgefunden, dass wir doch alle vom Storch abstammen und dass es wahre Liebe nur unter Männern gibt. Mario berichtet erstmals aus seiner Kindheit und erzählt, wie man eine Cord-Couch mit Nivea weicher machen kann. Mario Barth bringt alles in seiner unvergleichlichen Art auf den Punkt. Wer zu ihm in die Show geht, erlebt eine in Deutschland einmalige Comedyshow. Ein beeindruckendes Bühnenbild, aufwändige Licht und Tontechnik sowie ein Indoor-Feuerwerk sorgen zusätzlich für ein unvergessliches Live-Erlebnis. Und am Ende steht die Erkenntnis: &quot;Männer sind schuld, sagen die Frauen</div>",
+    "url" : "http://www.last.fm/event/3196391+Mario+Barth+at+Lanxess+Arena+on+30+May+2013",
+    "website" : "",
+    "attendance" : 1,
+    "reviews" : 0,
+    "venue" :
+    {
+        "name" : "Lanxess Arena",
+        "url" : "http://www.last.fm/venue/8976470+Lanxess+Arena",
+        "website" : "http://www.lanxess-arena.de/",
+        "city" : "Köln",
+        "country" : "Germany",
+        "street" : "Willy-Brandt-Platz",
+        "postal" : "50679",
+        "phonenumber" : "0221 - 8021",
+        "latitude" : 50.938637,
+        "longitude" : 6.979938,
+        "timezone" : null,
+        "id" : "8976470"
+    },
+    "ticketSuppliers" :
+        [
+        ],
+    "attendanceStatus" : null
+}

@@ -1,0 +1,21 @@
+{
+    "id" : "35096e5d-3bdd-423a-96b7-1df2742f63ed",
+    "name" : "Trinity Gilmore",
+    "email" : "trinity@multitiqua.com",
+    "registered" : "2010-10-31T01:42:02 -02:00",
+    "friends" :
+        [
+            {
+                "id" : "edd37df7-673c-4565-ae8a-131eb5ee672d",
+                "name" : "Eva WifKinson"
+            },
+            {
+                "id" : "a1a05baa-98bf-4dd3-8303-0dc56e38dd11",
+                "name" : "Eva Gill"
+            },
+            {
+                "id" : "c0d429f7-dcd3-4ae0-87b5-ac2f339ff0ef",
+                "name" : "Jasmine Fisher"
+            }
+        ]
+}

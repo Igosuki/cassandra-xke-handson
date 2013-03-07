@@ -2,8 +2,14 @@ package com.gepsens.xebia;
 
 import java.util.Date;
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Venue extends Artefact {
+
+    @JsonProperty("id")
+    Integer fakeId;
 
     Date occurence;
 

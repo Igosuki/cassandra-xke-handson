@@ -1,0 +1,21 @@
+{
+    "id" : "23c5b9d2-c389-4b2b-a6a6-b50e2774ba52",
+    "name" : "Addison Adamson",
+    "email" : "addison@nanobanc.com",
+    "registered" : "1993-12-04T15:21:35 -01:00",
+    "friends" :
+        [
+            {
+                "id" : "6f546bdb-47b1-41ee-8cb1-71236a3eb5e8",
+                "name" : "Angelina Stanley"
+            },
+            {
+                "id" : "1fe6101c-c894-4f5b-97ef-9a7bdf41a874",
+                "name" : "Kaylee Chesterton"
+            },
+            {
+                "id" : "9b98cd5f-189d-460a-bcf5-ead7da0b25e7",
+                "name" : "Leah Chandter"
+            }
+        ]
+}

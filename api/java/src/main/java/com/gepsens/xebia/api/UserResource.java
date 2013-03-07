@@ -5,21 +5,17 @@ import javax.ws.rs.core.MediaType;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
-import java.util.concurrent.atomic.AtomicLong;
+import com.gepsens.xebia.Click;
 import com.gepsens.xebia.User;
+import com.gepsens.xebia.cass.AstyanaxPersistor;
 import com.yammer.metrics.annotation.Timed;
 
 @Path("/users")
 @Produces(MediaType.APPLICATION_JSON)
-public class UserResource implements CrudResource<User, UUID> {
-    private final String template;
-    private final String defaultName;
-    private final AtomicLong counter;
+public class UserResource extends CassandraResource implements CrudResource<User, UUID> {
 
-    public UserResource(String template, String defaultName) {
-        this.template = template;
-        this.defaultName = defaultName;
-        this.counter = new AtomicLong();
+    public UserResource(AstyanaxPersistor context) {
+        super(context);
     }
 
     @GET
@@ -55,6 +51,14 @@ public class UserResource implements CrudResource<User, UUID> {
                             @QueryParam("since") Date since) {
         return null;
     }
+
+    @GET
+    @Path("/{userId}/clicks")
+    public List<Click> clickStream(@PathParam("userId") UUID id, @QueryParam("since") Date since) {
+        return null;
+    }
+
+
 }
 
 

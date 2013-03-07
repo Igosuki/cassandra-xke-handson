@@ -30,6 +30,11 @@ calculate_heap_sizes()
             system_memory_in_mb=`prtconf | awk '/Memory size:/ {print $3}'`
             system_cpu_cores=`psrinfo | wc -l`
         ;;
+        Darwin)
+            system_memory_in_bytes=`sysctl hw.memsize | awk '{print $2}'`
+            system_memory_in_mb=`expr $system_memory_in_bytes / 1024 / 1024`
+            system_cpu_cores=`sysctl hw.ncpu | awk '{print $2}'`
+        ;;
         *)
             # assume reasonable defaults for e.g. a modern desktop or
             # cheap server
@@ -110,11 +115,11 @@ esac
 
 
 # Override these to set the amount of memory to allocate to the JVM at
-# start-up. For production use you almost certainly want to adjust
-# this for your environment. MAX_HEAP_SIZE is the total amount of
-# memory dedicated to the Java heap; HEAP_NEWSIZE refers to the size
-# of the young generation. Both MAX_HEAP_SIZE and HEAP_NEWSIZE should
-# be either set or not (if you set one, set the other).
+# start-up. For production use you may wish to adjust this for your
+# environment. MAX_HEAP_SIZE is the total amount of memory dedicated
+# to the Java heap; HEAP_NEWSIZE refers to the size of the young
+# generation. Both MAX_HEAP_SIZE and HEAP_NEWSIZE should be either set
+# or not (if you set one, set the other).
 #
 # The main trade-off for the young generation is that the larger it
 # is, the longer GC pause times will be. The shorter it is, the more
@@ -138,7 +143,7 @@ fi
 
 # Specifies the default port over which Cassandra will be available for
 # JMX connections.
-JMX_PORT="7200"
+JMX_PORT="7199"
 
 
 # Here we create the arguments that will get passed to the jvm when
@@ -184,12 +189,8 @@ if [ "`uname`" = "Linux" ] ; then
     # thread-per-client.  (Best practice is for client connections to
     # be pooled anyway.) Only do so on Linux where it is known to be
     # supported.
-    if startswith "$JVM_VERSION" '1.7.'
-    then
-        JVM_OPTS="$JVM_OPTS -Xss160k"
-    else
-        JVM_OPTS="$JVM_OPTS -Xss160k"
-    fi
+    # u34 and greater need 180k
+    JVM_OPTS="$JVM_OPTS -Xss180k"
 fi
 echo "xss = $JVM_OPTS"
 
@@ -201,6 +202,10 @@ JVM_OPTS="$JVM_OPTS -XX:SurvivorRatio=8"
 JVM_OPTS="$JVM_OPTS -XX:MaxTenuringThreshold=1"
 JVM_OPTS="$JVM_OPTS -XX:CMSInitiatingOccupancyFraction=75"
 JVM_OPTS="$JVM_OPTS -XX:+UseCMSInitiatingOccupancyOnly"
+# note: bash evals '1.7.x' as > '1.7' so this is really a >= 1.7 jvm check
+if [ "$JVM_VERSION" \> "1.7" ] ; then
+    JVM_OPTS="$JVM_OPTS -XX:+UseCondCardMark"
+fi
 
 # GC logging options -- uncomment to enable
 # JVM_OPTS="$JVM_OPTS -XX:+PrintGCDetails"

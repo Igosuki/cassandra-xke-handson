@@ -1,0 +1,4 @@
+create table venue_invites(
+    venue_id timeuuid PRIMARY KEY
+    , users set<timeuuid>
+);

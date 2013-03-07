@@ -1,21 +1,27 @@
 package com.gepsens.xebia.crawler.lastfm;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 public class LastFMApiParser {
 
-    public static String subsetDir;
+    public String subsetDir;
 
-    public static String apiDir;
+    public String apiDir;
 
-    public static void main(String[] args) throws Exception {
+    public LastFMApiParser(String subsetDir, String apiDir) {
+        this.subsetDir = subsetDir;
+        this.apiDir = apiDir;
+    }
 
-        subsetDir = args.length > 0 ? args[0] : "./data/lastfm_subset";
-        apiDir = "./data/lastfm_api";
+    public void parseLastFMData() throws IOException {
+
         //LastFMJsonHDF5Processor.processLastFmJsonFiles(subsetDir);
 
         Properties lastfm = new Properties();
-        lastfm.load(LastFMApiParser.class.getResourceAsStream("lastfm.properties"));
+        InputStream resourceAsStream = LastFMApiParser.class.getResourceAsStream("/lastfm.properties");
+        lastfm.load(resourceAsStream);
         String key = (String) lastfm.get("key");
         String secret = (String) lastfm.get("secret");
         String user = (String) lastfm.get("user");

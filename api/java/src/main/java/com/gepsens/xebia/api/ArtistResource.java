@@ -5,19 +5,15 @@ import javax.ws.rs.core.MediaType;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
 import com.gepsens.xebia.Artist;
+import com.gepsens.xebia.cass.AstyanaxPersistor;
 import com.yammer.metrics.annotation.Timed;
 
 @Path("/artists")
 @Produces(MediaType.APPLICATION_JSON)
-public class ArtistResource implements CrudResource<Artist, UUID> {
-    private final String template;
-    private final String defaultName;
-    private final AtomicLong counter;
+public class ArtistResource extends CassandraResource implements CrudResource<Artist, UUID> {
 
-    public ArtistResource(String template, String defaultName) {
-        this.template = template;
-        this.defaultName = defaultName;
-        this.counter = new AtomicLong();
+    public ArtistResource(AstyanaxPersistor context) {
+        super(context);
     }
 
     @GET

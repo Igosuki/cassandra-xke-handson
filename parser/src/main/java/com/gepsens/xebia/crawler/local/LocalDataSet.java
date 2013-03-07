@@ -13,7 +13,9 @@ public class LocalDataSet<T> {
     }
 
     public LocalDataSet(Collection<T> items) {
-        this.items = new HashSet<>(items);
+        if(items != null) {
+            this.items = new HashSet<>(items);
+        }
     }
 
     public Set<T> getItems() {

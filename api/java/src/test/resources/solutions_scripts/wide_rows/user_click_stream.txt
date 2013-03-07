@@ -1,6 +1,6 @@
 create table user_click_stream (
-    user_id timeuuid,
-    , when date
+    user_id timeuuid
+    , when timestamp
     , url varchar
     , referer varchar
     , PRIMARY KEY(user_id, when, url)

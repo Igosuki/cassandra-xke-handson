@@ -1,0 +1,21 @@
+{
+    "id" : "b0897192-a146-4101-8571-f23e350965b1",
+    "name" : "Bella Thornton",
+    "email" : "bella@superscope.com",
+    "registered" : "1995-11-23T03:15:46 -01:00",
+    "friends" :
+        [
+            {
+                "id" : "e62c8556-592d-4830-bee8-0588cb5c45d3",
+                "name" : "Elizabeth Smith"
+            },
+            {
+                "id" : "1bff27f7-06f1-4584-abe5-b5a709b2a969",
+                "name" : "Peyton Gilmore"
+            },
+            {
+                "id" : "c9292006-ad77-4aac-9cb8-732f36116149",
+                "name" : "Katherine Walkman"
+            }
+        ]
+}

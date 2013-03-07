@@ -9,7 +9,7 @@ create table user_likes(
 create table user_likes_timeline (
     user_id timeuuid
     , type varchar
-    , when date
+    , when timestamp
     , item_id timeuuid
     , name varchar
     , PRIMARY KEY (user_id, type, when, item_id)

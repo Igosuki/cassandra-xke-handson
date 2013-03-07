@@ -9,7 +9,6 @@ public class LocalLastFMParserTest {
 
     public static final String API_DIR = "./data/lastfm_api";
 
-    @Test
     public void should_get_dataset() throws Exception {
         LocalLastFMParser localLastFMParser = new LocalLastFMParser(API_DIR);
         LocalDataSet<Artist> dataSet = localLastFMParser.getDataSet(Artist.class);

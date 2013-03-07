@@ -67,6 +67,8 @@
     <orderEntry type="library" name="Maven: com.netflix.astyanax:astyanax-queue:1.56.28" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.astyanax:astyanax-entity-mapper:1.56.28" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="module" module-name="parser" />
+    <orderEntry type="library" name="Maven: de.u-mass:lastfm-java:0.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.yammer.dropwizard:dropwizard-core:0.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.15" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.15" level="project" />

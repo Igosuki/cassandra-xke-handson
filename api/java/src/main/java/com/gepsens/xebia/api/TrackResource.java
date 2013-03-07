@@ -5,20 +5,16 @@ import javax.ws.rs.core.MediaType;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
 import com.gepsens.xebia.Track;
+import com.gepsens.xebia.cass.AstyanaxPersistor;
 import com.google.common.base.Optional;
 import com.yammer.metrics.annotation.Timed;
 
 @Path("/tracks")
 @Produces(MediaType.APPLICATION_JSON)
-public class TrackResource implements CrudResource<Track, UUID> {
-    private final String template;
-    private final String defaultName;
-    private final AtomicLong counter;
+public class TrackResource extends CassandraResource implements CrudResource<Track, UUID> {
 
-    public TrackResource(String template, String defaultName) {
-        this.template = template;
-        this.defaultName = defaultName;
-        this.counter = new AtomicLong();
+    public TrackResource(AstyanaxPersistor context) {
+        super(context);
     }
 
     @GET

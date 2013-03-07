@@ -1,20 +1,35 @@
 package com.gepsens.xebia;
 
 import java.util.Date;
-import java.util.List;
 import java.util.UUID;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Track extends Artefact {
 
+    @JsonProperty("artistMbid")
     UUID artistId;
 
-    String title;
+    @JsonProperty("artist")
+    String artistName;
+
+    String name;
+
+    String album;
 
     Date release;
 
     Float duration;
+
+    public String getArtistName() {
+        return artistName;
+    }
+
+    public void setArtistName(String artistName) {
+        this.artistName = artistName;
+    }
 
     public Float getDuration() {
         return duration;
@@ -32,12 +47,12 @@ public class Track extends Artefact {
         this.artistId = artistId;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Date getRelease() {

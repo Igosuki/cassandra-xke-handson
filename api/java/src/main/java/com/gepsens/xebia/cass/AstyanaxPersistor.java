@@ -60,4 +60,6 @@ public class AstyanaxPersistor {
     private String conf(String key) {
         return (String) this.cassandraConf.get(key);
     }
+
+
 }

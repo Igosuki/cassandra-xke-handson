@@ -1,0 +1,21 @@
+{
+    "id" : "b6ab4a59-0e65-4313-8518-5c66b0784571",
+    "name" : "Andrea Smith",
+    "email" : "andrea@anagraph.com",
+    "registered" : "1990-09-12T13:16:08 -02:00",
+    "friends" :
+        [
+            {
+                "id" : "1ef5391a-6aa0-42cd-8d6f-66963f122602",
+                "name" : "Hannah Gilson"
+            },
+            {
+                "id" : "70f74d3f-89a1-4316-a5f4-515927981583",
+                "name" : "Mackenzie Thornton"
+            },
+            {
+                "id" : "11522448-b840-49b1-96fa-dcd16856f117",
+                "name" : "Peyton Goodman"
+            }
+        ]
+}

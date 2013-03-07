@@ -1,0 +1,21 @@
+{
+    "id" : "656aea00-eefc-49f0-84c1-b319ac832d03",
+    "name" : "Madeline Nelson",
+    "email" : "madeline@unconix.com",
+    "registered" : "2000-05-15T16:48:59 -02:00",
+    "friends" :
+        [
+            {
+                "id" : "44f443eb-49b9-4aeb-81c2-6b75c1b4d96c",
+                "name" : "Madelyn Oswald"
+            },
+            {
+                "id" : "c58a3ff9-866d-4bca-b3eb-9d0b2b963f0e",
+                "name" : "Layla Young"
+            },
+            {
+                "id" : "360c9466-9766-45a9-b49f-6968a2104f46",
+                "name" : "Aubrey Goodman"
+            }
+        ]
+}

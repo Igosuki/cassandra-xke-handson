@@ -33,7 +33,7 @@ public class LocalLastFMParser {
         Set<T> returnList = new HashSet<>();
         for (File file : files) {
             if(file.isDirectory()) {
-                startFileRecurse(fileTypes, file.listFiles());
+                returnList.addAll(startFileRecurse(fileTypes, file.listFiles()));
             } else {
                 if(file.getName().endsWith("json")) {
                     returnList.add(localLastFMApiProcessor.parseLastFMJson(fileTypes, file));
