@@ -24,8 +24,8 @@ Support slides are at : https://speakerdeck.com/igosuki/cassandra-hands-on-xke-m
 - Make sure cassandra, cassandra-cli, cqlsh, opscenter are working fine.
 - Start cassandra with cassandra -f
 - Start opsCenter with opscenter
-- To be able to run multiple nodes on the local machine :
- -
+- To be able to run multiple nodes on the local machine give aliases for each ip : sudo ifconfig lo0 alias 127.0.0.2
+- install watch for nodetool
 
 ** Build the Hands On
 

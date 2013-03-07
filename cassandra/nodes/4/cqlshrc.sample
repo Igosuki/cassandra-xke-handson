@@ -29,7 +29,7 @@ completekey = tab
 version = 3.0
 
 [connection]
-hostname = 127.0.0.1
+hostname = 127.0.0.4
 port = 9160
 ; enable below for ssl
 ;factory = cqlshlib.ssl.ssl_transport_factory
