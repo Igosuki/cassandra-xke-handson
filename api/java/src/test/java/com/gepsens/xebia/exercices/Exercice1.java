@@ -1,5 +1,7 @@
 package com.gepsens.xebia.exercices;
 
+import java.util.Collection;
+import java.util.List;
 import java.util.UUID;
 import com.gepsens.xebia.*;
 import com.gepsens.xebia.api.*;
@@ -36,6 +38,22 @@ public class Exercice1 {
     public void create_and_read_artists() throws Exception {
         ArtistResource resource = new ArtistResource(context);
         runCrudTests(resource, Artist.class);
+    }
+
+    @Test
+    public void create_and_paginate_artists() throws Exception {
+        ArtistResource resource = new ArtistResource(context);
+        LocalDataSet<Artist> dataSet = getDataSet(Artist.class);
+        assertNotNull(dataSet.getItems());
+        assertTrue(dataSet.getItems().size() > 0);
+        for (Artist artist: dataSet.getItems()) {
+            UUID timeUUID = TimeUUIDUtils.getTimeUUID(System.nanoTime());
+            artist.setId(timeUUID);
+            resource.save(artist);
+        }
+        Collection<Artist> fetched = resource.paginate(null, 20);
+        Assert.assertNotNull(fetched);
+        Assert.assertTrue(fetched.size() > 0);
     }
 
     @Test

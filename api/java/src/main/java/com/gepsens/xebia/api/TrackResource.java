@@ -2,6 +2,7 @@ package com.gepsens.xebia.api;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.Collection;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
 import com.gepsens.xebia.Track;
@@ -41,6 +42,11 @@ public class TrackResource extends CassandraResource implements CrudResource<Tra
     @PUT
     @Override
     public Track update(Track track) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public Collection<Track> paginate(UUID startToken, int max) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

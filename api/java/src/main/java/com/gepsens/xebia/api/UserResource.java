@@ -2,6 +2,7 @@ package com.gepsens.xebia.api;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -42,6 +43,11 @@ public class UserResource extends CassandraResource implements CrudResource<User
     @PUT
     @Override
     public User update(User user) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public Collection<User> paginate(UUID startToken, int max) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 

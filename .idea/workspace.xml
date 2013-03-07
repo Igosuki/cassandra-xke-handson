@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6c63a98f-adbf-4880-8a35-05abfa90b893" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/ArtistResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/ArtistResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/CrudResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/CrudResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/Exercice1.java" afterPath="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/Exercice1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/UserResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/UserResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/VenueResource.java" afterPath="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/VenueResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cassandra-xke-handson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +56,11 @@
     <file path="/user_likes.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362602345185" ignored="false" />
     <file path="/user_click_stream.txt" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362602318526" ignored="false" />
     <file path="/TrackResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362582381937" ignored="false" />
-    <file path="/CrudResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362582313004" ignored="false" />
+    <file path="/CrudResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362639032707" ignored="false" />
     <file path="/UserResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362604171474" ignored="false" />
     <file path="/UUIDGenerator.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362601606747" ignored="false" />
     <file path="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362602723379" ignored="false" />
-    <file path="/Exercice1.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362607576744" ignored="false" />
+    <file path="/Exercice1.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362639053446" ignored="false" />
     <file path="/VenueResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362604476887" ignored="false" />
     <file path="/CassandraResource.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362602837732" ignored="false" />
     <file path="/Click.java" changelist="6c63a98f-adbf-4880-8a35-05abfa90b893" time="1362604157266" ignored="false" />
@@ -128,7 +133,20 @@
     <favorites_list name="cassandra-xke-handson" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Exercice1.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/Exercice1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="44" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.37381405">
+              <folding>
+                <element signature="method#create_and_read_artists#0;class#Exercice1#0" expanded="true" />
+                <element signature="method#runCrudTests#0;class#Exercice1#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -146,11 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/api/java/src/test/resources/solutions_scripts/wide_rows/venue_invites" />
-        <option value="$PROJECT_DIR$/api/java/src/test/resources/solutions_scripts/wide_rows/venue_invites.txt" />
-        <option value="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/README.md" />
-        <option value="$PROJECT_DIR$/cassandra/nodes/1/log4j-server.properties" />
-        <option value="$PROJECT_DIR$/cassandra/nodes/1/cassandra.in.sh" />
         <option value="$PROJECT_DIR$/cassandra/nodes/start2" />
         <option value="$PROJECT_DIR$/cassandra/nodes/2/cassandra-env.sh" />
         <option value="$PROJECT_DIR$/cassandra/nodes/2/cassandra.yaml" />
@@ -161,7 +174,12 @@
         <option value="$PROJECT_DIR$/cassandra/nodes/4/cassandra.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/cass/AstyanaxPersistor.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/CrudResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/Exercice1.java" />
         <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/ArtistResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/VenueResource.java" />
+        <option value="$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/UserResource.java" />
       </list>
     </option>
   </component>
@@ -610,82 +628,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra-xke-handson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -717,6 +659,82 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xebia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cassandra-xke-handson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xebia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1198,7 +1216,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="946" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1219,7 +1237,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28151774" sideWeight="0.67191285" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28151774" sideWeight="0.67191285" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33535108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1291,41 +1309,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="12" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.69924814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cassandra/nodes/start1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="50" selection-start="0" selection-end="63" vertical-scroll-proportion="0.018796992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cassandra/nodes/2/access.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cassandra/nodes/4/access.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cassandra/nodes/3/access.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cassandra/nodes/2/cassandra.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="317" column="25" selection-start="14086" selection-end="14086" vertical-scroll-proportion="0.3643264">
@@ -1389,20 +1372,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-entity-mapper/1.56.28/astyanax-entity-mapper-1.56.28.jar!/com/netflix/astyanax/entitystore/DefaultEntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="82" selection-start="3662" selection-end="3662" vertical-scroll-proportion="0.34969324">
+          <folding>
+            <element signature="method#withEntityType#0;class#Builder#0;class#DefaultEntityManager#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/CrudResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="225" selection-end="225" vertical-scroll-proportion="0.39848197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="577" selection-end="787" vertical-scroll-proportion="0.39848197">
+          <folding>
+            <element signature="method#paginate#0;class#UserResource#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/VenueResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="1397" selection-end="1488" vertical-scroll-proportion="0.82542694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/TrackResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="1414" selection-end="1505" vertical-scroll-proportion="0.943074">
+          <folding>
+            <element signature="method#TrackResource#0;class#TrackResource#0" expanded="true" />
+            <element signature="method#get#0;class#TrackResource#0" expanded="true" />
+            <element signature="method#save#0;class#TrackResource#0" expanded="true" />
+            <element signature="method#update#0;class#TrackResource#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/java/src/main/java/com/gepsens/xebia/api/ArtistResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="708" selection-end="708" vertical-scroll-proportion="0.34155598">
+        <state line="56" column="8" selection-start="1778" selection-end="1869" vertical-scroll-proportion="0.943074">
           <folding>
             <element signature="method#save#0;class#ArtistResource#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/astyanax/astyanax-entity-mapper/1.56.28/astyanax-entity-mapper-1.56.28.jar!/com/netflix/astyanax/entitystore/DefaultEntityManager.class">
+    <entry file="file://$PROJECT_DIR$/api/java/src/test/java/com/gepsens/xebia/exercices/Exercice1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="82" selection-start="3662" selection-end="3662" vertical-scroll-proportion="0.34969324">
+        <state line="55" column="44" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.37381405">
           <folding>
-            <element signature="method#withEntityType#0;class#Builder#0;class#DefaultEntityManager#0" expanded="true" />
+            <element signature="method#create_and_read_artists#0;class#Exercice1#0" expanded="true" />
+            <element signature="method#runCrudTests#0;class#Exercice1#0" expanded="true" />
           </folding>
         </state>
       </provider>
