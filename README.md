@@ -24,6 +24,8 @@ Support slides are at : https://speakerdeck.com/igosuki/cassandra-hands-on-xke-m
 - Make sure cassandra, cassandra-cli, cqlsh, opscenter are working fine.
 - Start cassandra with cassandra -f
 - Start opsCenter with opscenter
+- To be able to run multiple nodes on the local machine :
+ -
 
 ** Build the Hands On
 
