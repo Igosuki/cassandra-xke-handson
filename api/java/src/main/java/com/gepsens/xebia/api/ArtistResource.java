@@ -4,8 +4,11 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
+import com.gepsens.xebia.Artefact;
 import com.gepsens.xebia.Artist;
 import com.gepsens.xebia.cass.AstyanaxPersistor;
+import com.netflix.astyanax.entitystore.DefaultEntityManager;
+import com.netflix.astyanax.entitystore.EntityManager;
 import com.yammer.metrics.annotation.Timed;
 
 @Path("/artists")
@@ -27,7 +30,12 @@ public class ArtistResource extends CassandraResource implements CrudResource<Ar
     @POST
     @Override
     public void save(Artist artist) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        EntityManager<Artist, String> entityManager = new DefaultEntityManager.Builder<Artist, String>()
+                .withEntityType(Artist.class)
+                .withKeyspace(this.context.getCurrentKeySpace())
+                .withColumnFamily("artists")
+                .build();
+        entityManager.put(artist);
     }
 
     @DELETE
